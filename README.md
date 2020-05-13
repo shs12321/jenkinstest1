@@ -15,10 +15,11 @@ https://bitbucket.org/jgnam/base/src/master/
 #sol1 Build
 '''
 git으로
-로 부터 소스를 내려받아 gradle로 빌드
+https://shs12321@bitbucket.org/jgnam/base.git로 부터 소스를 내려받아 sol2 job에서 빌드
 '''
 
 #tomcat
 '''
-플러그인을 이용하여 7버전 톰캣 서버로 보냄
+trigger를 이용하여 sol2 빌드가 완료되면
+war파일을 찾아서 플러그인을 이용하여 7버전 톰캣 서버로 보냄
 '''
